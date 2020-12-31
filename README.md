@@ -8,6 +8,7 @@ web-dl módszerek magyarul
 - [YOUTUBE-DL LINUXON]
 - [STREAM LINK BESZERZÉSE BÖNGÉSZŐBŐL](#stream-link-beszerzese)
 - [YOUTUBE-DL LETÖLTÉSI PARAMÉTEREK]
+- [UTÓMUNKÁLATOK, VÁGÁSOK FFMPEG-EL]
 
 # HLS Recorder használatával
 
@@ -16,7 +17,5 @@ Nyissuk meg ezt az oldalt:
 
     https://www.hlsloader.com/index.html
 
-To install it right away for all UNIX users (Linux, macOS, etc.), type:
-
-    sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
-    sudo chmod a+rx /usr/local/bin/youtube-dl
+A bővítmény telepítése után nyissuk meg a stream oldalát majd indítsuk el a videót, ezután pedig kattintsunk a kiegészítő ikonjára a jobb felső sarokban.
+Egy új ablak fog felugrani.
