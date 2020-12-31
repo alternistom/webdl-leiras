@@ -13,6 +13,7 @@ web-dl módszerek magyarul
 
 Ezen módszerhez (jelen állás szerint, ez később változhat) Chrome böngészőre lesz szükségünk.
 Nyissuk meg ezt az oldalt:
+
     https://www.hlsloader.com/index.html
 
 To install it right away for all UNIX users (Linux, macOS, etc.), type:
