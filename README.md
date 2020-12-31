@@ -17,5 +17,6 @@ Nyissuk meg ezt az oldalt:
 
     https://www.hlsloader.com/index.html
 
-A bővítmény telepítése után nyissuk meg a stream oldalát majd indítsuk el a videót, ezután pedig kattintsunk a kiegészítő ikonjára a jobb felső sarokban.
-Egy új ablak fog felugrani.
+A bővítmény telepítése után nyissuk meg a stream oldalát majd indítsuk el a videót, ezután pedig kattintsunk a kiegészítő ikonjára a jobb felső sarokban. Erre egy új ablak fog felugrani.
+- egyik
+- másik
