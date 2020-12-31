@@ -8,3 +8,5 @@ web-dl módszerek magyarul
 - [YOUTUBE-DL LINUXON]
 - [STREAM LINK BESZERZÉSE BÖNGÉSZŐBŐL](#stream-link-beszerzese)
 - [YOUTUBE-DL LETÖLTÉSI PARAMÉTEREK]
+
+# HLS Recorder használatával
