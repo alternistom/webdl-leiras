@@ -10,3 +10,7 @@ web-dl módszerek magyarul
 - [YOUTUBE-DL LETÖLTÉSI PARAMÉTEREK]
 
 # HLS Recorder használatával
+
+Ezen módszerhez (jelen állás szerint, ez később változhat) Chrome böngészőre lesz szükségünk.
+Nyissuk meg ezt az oldalt:
+  https://www.hlsloader.com/index.html
