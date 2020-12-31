@@ -20,9 +20,10 @@ Két programra lesz szükségünk, az egyik a youtube-dl ami letölti a videót 
 1. **ffmpeg telepítése**
     - készítsünk egy ffmpeg mappát a merevlemezen valahol, a lényeg hogy legyen egy szeparált rész neki
     - csomagoljuk ki a .7z file tartalmát ebbe a mappába
+    
 2. **youtube-dl telepítése**
     - készítsünk egy youtube-dl mappát a merevlemezen valahol, a lényeg hogy legyen egy szeparált rész neki
-    - másoljuk vag yhelyezzük át a letöltött youtube-dl.exe filet ide
+    - másoljuk vagy helyezzük át a letöltött youtube-dl.exe filet ide
     
 3. **a két program PATH-ba rakása**
     - erre azért van szükség hogy a két program elérési utját ne kelljen minden alkalommal kiírni
@@ -34,10 +35,13 @@ Két programra lesz szükségünk, az egyik a youtube-dl ami letölti a videót 
     - A youtube-dl-hez azt a mappát keressük ki ahova az exe filet kimásoltuk, én simán a C: meghajtóra csináltam a mappákat, nálam így néz ki a változó elérési helye:
     
             C:\youtube-dl
-    - Az ffmpeg esetében az ffmpeg mappában lévő bin mappába kell betallóznunk, hogy így nézzen ki:
+    - Az ffmpeg esetében az ffmpeg mappában lévő bin mappába kell betallóznunk, például így:
     
-            C:\Program Files\ffmpeg\bin
-    - wdw
+            C:\ffmpeg\bin
+    - Majd az OK gombra kattintva zárjuk be a 3 ablakot.
+    
+4. **Updatelés**
+    - A két programot úgy tudod frissíteni, hogy letöltöd még egyszer és kicsomagolod/átmásolod az új fileokat a már meglévő mappákba.
 
 # Stream Recorder használatával
 
