@@ -12,13 +12,19 @@ web-dl módszerek magyarul
 
 # youtube-dl Windowson Powershell vagy Parancssor használatával 
 
-Két programra lesz szükségünk, az egyik a youtube-dl ami letölti a videót illetve az ffmpeg ami pedig összefüzi és kimenti nekünk a streamet.
+Két programra lesz szükségünk, az egyik a youtube-dl ami letölti a videót illetve az ffmpeg ami pedig összefüzi és kimenti nekünk a streamet. Innen tudjuk letölteni a legfrissebbet:
 
     https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z
     https://youtube-dl.org/downloads/latest/youtube-dl.exe
    
 - ffmpeg telepítése
+    - készítsünk egy ffmpeg mappát a merevlemezen valahol, a lényeg hogy legyen egy szeparált rész neki
+    - csomagoljuk ki a .7z file tartalmát ebbe a mappába
 - youtube-dl telepítése
+    - készítsünk egy youtube-dl mappát a merevlemezen valahol, a lényeg hogy legyen egy szeparált rész neki
+    - másoljuk vag yhelyezzük át a letöltött youtube-dl.exe filet ide
+    
+- hogy me
 
 # Stream Recorder használatával
 
