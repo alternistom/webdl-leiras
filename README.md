@@ -1,7 +1,7 @@
 # webdl-leiras
 web-dl módszerek magyarul
 
-- [CHROME KIEGÉSZÍTŐN KERESZTÜL](#hls-recorder-használatával)
+- [CHROME KIEGÉSZÍTŐN KERESZTÜL](#stream-recorder-használatával)
 - [YOUTUBE-DL WINDOWSON POWERSHELLBEN/COMMAND LINEBAN]
 - [YOUTUBE-DL WINDOWSON UBUNTU TERMINÁLLAL]
 - [YOUTUBE-DL ANDROIDON]
@@ -10,13 +10,15 @@ web-dl módszerek magyarul
 - [YOUTUBE-DL LETÖLTÉSI PARAMÉTEREK]
 - [UTÓMUNKÁLATOK, VÁGÁSOK FFMPEG-EL]
 
-# HLS Recorder használatával
+# Stream Recorder használatával
 
 Ezen módszerhez (jelen állás szerint, ez később változhat) Chrome böngészőre lesz szükségünk.
 Nyissuk meg ezt az oldalt:
 
     https://www.hlsloader.com/index.html
 
-A bővítmény telepítése után nyissuk meg a stream oldalát majd indítsuk el a videót, ezután pedig kattintsunk a kiegészítő ikonjára a jobb felső sarokban. Erre egy új ablak fog felugrani.
-- egyik
-- másik
+A bővítmény telepítése után nyissuk meg a stream oldalát majd indítsuk el a videót, ezután pedig kattintsunk a kiegészítő ikonjára a jobb felső sarokban. Erre egy új ablak fog felugrani. A Steam Recordernek alapvetően két működési módja van:
+- Normal
+    - alpont
+    - másik alpont
+- Record
