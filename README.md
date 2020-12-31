@@ -31,9 +31,13 @@ Két programra lesz szükségünk, az egyik a youtube-dl ami letölti a videót 
     - A következő felugró ablak két részre tagolódik, nekünk a felső része fog kelleni
     - Keressük meg a Path nevű változót a táblázatból és kattintsunk rá majd a Szerkesztés... gombra
     - A felugró ablakban a Tallózás... gombra kattintva tudunk felvinni új változót ide
-    - A youtube-dl-hez azt a mappát keressük ki ahova az exe filet kimásoltuk
+    - A youtube-dl-hez azt a mappát keressük ki ahova az exe filet kimásoltuk, én simán a C: meghajtóra csináltam a mappákat, nálam így néz ki a változó elérési helye:
     
-        C:\Program Files (x86)\youtube-dl
+            C:\youtube-dl
+    - Az ffmpeg esetében az ffmpeg mappában lévő bin mappába kell betallóznunk, hogy így nézzen ki:
+    
+            C:\Program Files\ffmpeg\bin
+    - wdw
 
 # Stream Recorder használatával
 
