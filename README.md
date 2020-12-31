@@ -44,7 +44,7 @@ Két programra lesz szükségünk, az egyik a youtube-dl ami letölti a videót 
     - A két programot úgy tudod frissíteni, hogy letöltöd még egyszer és kicsomagolod/átmásolod az új fileokat a már meglévő mappákba.
     - A youtube-dl frissíthető a következő paranccsal is:
     
-                youtube-dl -U
+            youtube-dl -U
            
 
 # Stream Recorder használatával
