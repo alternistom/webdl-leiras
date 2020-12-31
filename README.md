@@ -1,7 +1,7 @@
 # webdl-leiras
 web-dl módszerek magyarul
 
-- [YOUTUBE-DL WINDOWSON POWERSHELLBEN/COMMAND LINEBAN](#youtube---dl-Windowson-Powershell-vagy-Parancssor-használatával)
+- [YOUTUBE-DL WINDOWSON POWERSHELLBEN/COMMAND LINEBAN](#youtube-dl-Windowson-Powershell-vagy-Parancssor-használatával)
 - [YOUTUBE-DL WINDOWSON UBUNTU TERMINÁLLAL]
 - [YOUTUBE-DL ANDROIDON]
 - [YOUTUBE-DL LINUXON]
