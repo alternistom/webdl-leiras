@@ -27,6 +27,13 @@ Két programra lesz szükségünk, az egyik a youtube-dl ami letölti a videót 
 3. **a két program PATH-ba rakása**
     - erre azért van szükség hogy a két program elérési utját ne kelljen minden alkalommal kiírni
     - Start menűt felnyitva keresünk rá a: __A rendszer környezeti változóinak módosítása__ lehetőségre, majd nyissuk meg
+    - A felugró ablakban a Speciális fülén alul van egy környezeti változók... gomb, kattintsunk rá
+    - A következő felugró ablak két részre tagolódik, nekünk a felső része fog kelleni
+    - Keressük meg a Path nevű változót a táblázatból és kattintsunk rá majd a Szerkesztés... gombra
+    - A felugró ablakban a Tallózás... gombra kattintva tudunk felvinni új változót ide
+    - A youtube-dl-hez azt a mappát keressük ki ahova az exe filet kimásoltuk
+    
+        C:\Program Files (x86)\youtube-dl
 
 # Stream Recorder használatával
 
