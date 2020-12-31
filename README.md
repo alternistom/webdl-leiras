@@ -1,8 +1,7 @@
 # webdl-leiras
 web-dl módszerek magyarul
 
-
-- [YOUTUBE-DL WINDOWSON POWERSHELLBEN/COMMAND LINEBAN]
+- [YOUTUBE-DL WINDOWSON POWERSHELLBEN/COMMAND LINEBAN](#youtube---dl-Windowson-Powershell-vagy-Parancssor-használatával)
 - [YOUTUBE-DL WINDOWSON UBUNTU TERMINÁLLAL]
 - [YOUTUBE-DL ANDROIDON]
 - [YOUTUBE-DL LINUXON]
@@ -10,6 +9,9 @@ web-dl módszerek magyarul
 - [YOUTUBE-DL LETÖLTÉSI PARAMÉTEREK]
 - [UTÓMUNKÁLATOK, VÁGÁSOK FFMPEG-EL]ű
 - [HA SEHOGYSE MEGY A YOUTUBE-DL LEHET CHROME KIEGÉSZÍTŐN KERESZTÜL IS](#stream-recorder-használatával)
+
+# youtube-dl Windowson Powershell vagy Parancssor használatával 
+
 
 # Stream Recorder használatával
 
