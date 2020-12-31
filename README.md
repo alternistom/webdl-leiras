@@ -34,17 +34,17 @@ Két programra lesz szükségünk, az egyik a youtube-dl ami letölti a videót 
     - A felugró ablakban a Tallózás... gombra kattintva tudunk felvinni új változót ide
     - A youtube-dl-hez azt a mappát keressük ki ahova az exe filet kimásoltuk, én simán a C: meghajtóra csináltam a mappákat, nálam így néz ki a változó elérési helye:
     
-            C:\youtube-dl
+          C:\youtube-dl
     - Az ffmpeg esetében az ffmpeg mappában lévő bin mappába kell betallóznunk, például így:
     
-            C:\ffmpeg\bin
+          C:\ffmpeg\bin
     - Majd az OK gombra kattintva zárjuk be a 3 ablakot.
     
 4. **Updatelés**
     - A két programot úgy tudod frissíteni, hogy letöltöd még egyszer és kicsomagolod/átmásolod az új fileokat a már meglévő mappákba.
     - A youtube-dl frissíthető a következő paranccsal is:
     
-            youtube-dl -U
+          youtube-dl -U
            
 
 # Stream Recorder használatával
