@@ -70,7 +70,7 @@ Két programra lesz szükségünk, az egyik a youtube-dl ami letölti a videót 
     
           youtube-dl -U
 
-# Stream link beszerzese
+# Stream link beszerzése
 
 Chrome vagy Firefox böngészőben nyissuk meg a videót tartalmazó oldalt, nyomjuk meg az F12-öt ez meg fogja nyitni a Developer Tools-t. Itt át kell váltanunk a Network fülre majd újra betöltenünk az oldalt, majd ezeket végigpróbálni, ha megvan a stream link irány a [YOUTUBE-DL LETÖLTÉSI PARAMÉTEREK](#youtube-dl-letöltési-paraméterek)
 
