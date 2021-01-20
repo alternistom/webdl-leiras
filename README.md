@@ -1,8 +1,8 @@
 # webdl-leiras
 web-dl módszerek magyarul
 
-- [YOUTUBE-DL WINDOWSON POWERSHELLBEN/COMMAND LINEBAN](#youtube-dl-Windowson-Powershell-vagy-Parancssor-használatával)
-- [YOUTUBE-DL WINDOWSON UBUNTU TERMINÁLLAL]
+- [YOUTUBE-DL WINDOWSON POWERSHELLBEN/COMMAND LINEBAN](#youtube-dl-Windowson-Powershell-vagy-Parancssor-használatával-PATH-el)
+- [YOUTUBE-DL WINDOWSON POWERSHELLBEN/COMMAND LINEBAN](#youtube-dl-Windowson-Powershell-vagy-Parancssor-használatával-PATH-nélkül)
 - [YOUTUBE-DL ANDROIDON]
 - [YOUTUBE-DL LINUXON]
 - [STREAM LINK BESZERZÉSE BÖNGÉSZŐBŐL](#Stream-link-beszerzese)
@@ -10,7 +10,7 @@ web-dl módszerek magyarul
 - [UTÓMUNKÁLATOK, VÁGÁSOK FFMPEG-EL]
 - [HA SEHOGYSE MEGY A YOUTUBE-DL LEHET CHROME KIEGÉSZÍTŐN KERESZTÜL IS](#stream-recorder-használatával)
 
-# youtube-dl Windowson Powershell vagy Parancssor használatával 
+# youtube-dl Windowson Powershell vagy Parancssor használatával PATH-el
 
 Két programra lesz szükségünk, az egyik a youtube-dl ami letölti a videót illetve az ffmpeg ami pedig összefüzi és kimenti nekünk a streamet. Innen tudjuk letölteni a legfrissebbet:
 
@@ -45,7 +45,10 @@ Két programra lesz szükségünk, az egyik a youtube-dl ami letölti a videót 
     - A youtube-dl frissíthető a következő paranccsal is:
     
           youtube-dl -U
-           
+
+# youtube-dl Windowson Powershell vagy Parancssor használatával PATH nélkül
+jjjj
+
 # Stream link beszerzese
 
 Chrome vagy Firefox böngészőben nyissuk meg a videót tartalmazó oldalt, nyomjuk meg az F12-öt ez meg fogja nyitni a Developer Tools-t. Itt át kell váltanunk a Network fülre majd újra betöltenünk az oldalt, majd ezeket végigpróbálni:
