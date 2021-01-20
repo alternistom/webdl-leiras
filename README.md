@@ -5,9 +5,9 @@ web-dl módszerek magyarul
 - [YOUTUBE-DL WINDOWSON UBUNTU TERMINÁLLAL]
 - [YOUTUBE-DL ANDROIDON]
 - [YOUTUBE-DL LINUXON]
-- [STREAM LINK BESZERZÉSE BÖNGÉSZŐBŐL](#stream-link-beszerzese)
+- [STREAM LINK BESZERZÉSE BÖNGÉSZŐBŐL](#Stream-link-beszerzese)
 - [YOUTUBE-DL LETÖLTÉSI PARAMÉTEREK]
-- [UTÓMUNKÁLATOK, VÁGÁSOK FFMPEG-EL]ű
+- [UTÓMUNKÁLATOK, VÁGÁSOK FFMPEG-EL]
 - [HA SEHOGYSE MEGY A YOUTUBE-DL LEHET CHROME KIEGÉSZÍTŐN KERESZTÜL IS](#stream-recorder-használatával)
 
 # youtube-dl Windowson Powershell vagy Parancssor használatával 
@@ -46,6 +46,17 @@ Két programra lesz szükségünk, az egyik a youtube-dl ami letölti a videót 
     
           youtube-dl -U
            
+# #Stream link beszerzese
+
+Chrome vagy Firefox böngészőben nyissuk meg a videót tartalmazó oldalt, nyomjuk meg az F12-öt ez meg fogja nyitni a Developer Tools-t. Itt át kell váltanunk a Network fülre majd újra betöltenünk az oldalt, majd ezeket végigpróbálni:
+
+1. **.m3u8 link**
+    - A Developer Tools bal oldalán lesz egy kis szövegdoboz, ezzel tudunk keresni a találatok között, ide írjuk be hogy m3u8
+    - Ha több mint egy találatunk van amik nem egyeznek névre, válasszuk a 2-es lépést inkább, ha csak egy találat van kattintsunk rá
+    - Majd a felugró ablakból jobb oldalt a Headers fülön lévő Request URL tartalmát másoljuk ki
+    
+2. **.mpd**
+    - fwd
 
 # Stream Recorder használatával
 
