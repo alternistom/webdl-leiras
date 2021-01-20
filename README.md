@@ -24,7 +24,7 @@ Két programra lesz szükségünk, az egyik a youtube-dl ami letölti a videót 
     - Az ffmpeg-release-full.7z filet csomagoljuk ki, majd a bin mappájából a három darab .exe filet másoljuk át az imént kreált mappába (ffmpeg, ffplay, ffprobe)
     - Nyomjuk le a jobb shiftet és a kattinsunk jobb gombbal a mappában a shiftet lenyomva tartva, amint megnyílt a menü elereszthetjük a Shiftet
     - Válasszuk ki a Powershell-ablak megnyitása itt opciót
-    - Kész is a használatra! Következő állomás a [YOUTUBE-DL LETÖLTÉSI PARAMÉTEREK](#youtube-dl-letöltési-paraméterek)
+    - Kész is a használatra! Következő állomás a [STREAM LINK BESZERZÉSE BÖNGÉSZŐBŐL](#Stream-link-beszerzese)
     
 2. **Updatelés**
     - Töltsük le megint a két file-t és csomagoljuk/másoljuk át a 4db .exe filet ebbe a mappába
@@ -62,7 +62,7 @@ Két programra lesz szükségünk, az egyik a youtube-dl ami letölti a videót 
 4. **Powershell megnyítása**
     - Keressünk rá a Start menüben, vagy egy tetszőleges mappában nyomjuk le a jobb shiftet és a kattinsunk jobb gombbal a mappában a shiftet lenyomva tartva, amint megnyílt a menü elereszthetjük a Shiftet
     - Válasszuk ki a Powershell-ablak megnyitása itt opciót
-    - Kész is a használatra! Következő állomás a [YOUTUBE-DL LETÖLTÉSI PARAMÉTEREK](#youtube-dl-letöltési-paraméterek)
+    - Kész is a használatra! Következő állomás a [STREAM LINK BESZERZÉSE BÖNGÉSZŐBŐL](#Stream-link-beszerzese)
     
 5. **Updatelés**
     - A két programot úgy tudod frissíteni, hogy letöltöd még egyszer és kicsomagolod/átmásolod az új fileokat a már meglévő mappákba.
@@ -72,7 +72,7 @@ Két programra lesz szükségünk, az egyik a youtube-dl ami letölti a videót 
 
 # Stream link beszerzese
 
-Chrome vagy Firefox böngészőben nyissuk meg a videót tartalmazó oldalt, nyomjuk meg az F12-öt ez meg fogja nyitni a Developer Tools-t. Itt át kell váltanunk a Network fülre majd újra betöltenünk az oldalt, majd ezeket végigpróbálni:
+Chrome vagy Firefox böngészőben nyissuk meg a videót tartalmazó oldalt, nyomjuk meg az F12-öt ez meg fogja nyitni a Developer Tools-t. Itt át kell váltanunk a Network fülre majd újra betöltenünk az oldalt, majd ezeket végigpróbálni, ha megvan a stream link irány a [YOUTUBE-DL LETÖLTÉSI PARAMÉTEREK](#youtube-dl-letöltési-paraméterek)
 
 1. **.m3u8 link**
     - A Developer Tools bal oldalán lesz egy kis szövegdoboz, ezzel tudunk keresni a találatok között, ide írjuk be hogy m3u8
@@ -88,6 +88,13 @@ Chrome vagy Firefox böngészőben nyissuk meg a videót tartalmazó oldalt, nyo
     - A Vimeo rendszerét használó streameknél egy harmadik verzió játszik, keressünk rá arra hogy master
     - Az egy találatra kattintsunk rá majd a felugró ablakból a Headers tab-ról a Request URL részt másoljuk ki
     - A link végéről töröljük le a json?base64_init=1 végződést és írjunk m3u8-at a helyére úgy hogy a link vége így nézzen ki: master.m3u8
+
+# youtube-dl letöltési paraméterek
+
+A youtube-dl alapból nagyon sok videós oldalt támogat, egyszerűen használható.
+
+**Letöltés**
+youtube-dl + streamlink
 
 # Stream Recorder használatával
 
