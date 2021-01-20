@@ -1,14 +1,25 @@
 # webdl-leiras
 web-dl módszerek magyarul
 
-- [YOUTUBE-DL WINDOWSON POWERSHELLBEN/COMMAND LINEBAN](#youtube-dl-Windowson-Powershell-vagy-Parancssor-használatával-PATH-el)
 - [YOUTUBE-DL WINDOWSON POWERSHELLBEN/COMMAND LINEBAN](#youtube-dl-Windowson-Powershell-vagy-Parancssor-használatával-PATH-nélkül)
+- [YOUTUBE-DL WINDOWSON POWERSHELLBEN/COMMAND LINEBAN PATH-EL](#youtube-dl-Windowson-Powershell-vagy-Parancssor-használatával-PATH-el)
 - [YOUTUBE-DL ANDROIDON]
 - [YOUTUBE-DL LINUXON]
 - [STREAM LINK BESZERZÉSE BÖNGÉSZŐBŐL](#Stream-link-beszerzese)
 - [YOUTUBE-DL LETÖLTÉSI PARAMÉTEREK]
 - [UTÓMUNKÁLATOK, VÁGÁSOK FFMPEG-EL]
 - [HA SEHOGYSE MEGY A YOUTUBE-DL LEHET CHROME KIEGÉSZÍTŐN KERESZTÜL IS](#stream-recorder-használatával)
+
+# youtube-dl Windowson Powershell vagy Parancssor használatával PATH nélkül
+
+(Path telepítése nélkül mindig csak abban a mappában tudunk futtatni, ahol a youtube-dl.exe található, ha szeretnéd bárhonnan futtatni, kattints ide: [YOUTUBE-DL WINDOWSON POWERSHELLBEN/COMMAND LINEBAN PATH-EL](#youtube-dl-Windowson-Powershell-vagy-Parancssor-használatával-PATH-el))
+
+Két programra lesz szükségünk, az egyik a youtube-dl ami letölti a videót illetve az ffmpeg ami pedig összefüzi és kimenti nekünk a streamet. Innen tudjuk letölteni a legfrissebbet:
+
+    https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z
+    https://youtube-dl.org/downloads/latest/youtube-dl.exe
+    
+
 
 # youtube-dl Windowson Powershell vagy Parancssor használatával PATH-el
 
@@ -45,9 +56,6 @@ Két programra lesz szükségünk, az egyik a youtube-dl ami letölti a videót 
     - A youtube-dl frissíthető a következő paranccsal is:
     
           youtube-dl -U
-
-# youtube-dl Windowson Powershell vagy Parancssor használatával PATH nélkül
-jjjj
 
 # Stream link beszerzese
 
