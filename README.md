@@ -5,7 +5,7 @@ web-dl módszerek magyarul
 - [YOUTUBE-DL WINDOWSON POWERSHELLBEN/COMMAND LINEBAN PATH-EL](#youtube-dl-Windowson-Powershell-vagy-Parancssor-használatával-PATH-el)
 - [YOUTUBE-DL ANDROIDON]
 - [YOUTUBE-DL LINUXON]
-- [STREAM LINK BESZERZÉSE BÖNGÉSZŐBŐL](#Stream-link-beszerzese)
+- [STREAM LINK BESZERZÉSE BÖNGÉSZŐBŐL](#Stream-link-beszerzése)
 - [YOUTUBE-DL LETÖLTÉSI PARAMÉTEREK](#youtube-dl-letöltési-paraméterek)
 - [UTÓMUNKÁLATOK, VÁGÁSOK FFMPEG-EL]
 - [HA SEHOGYSE MEGY A YOUTUBE-DL LEHET CHROME KIEGÉSZÍTŐN KERESZTÜL IS](#stream-recorder-használatával)
