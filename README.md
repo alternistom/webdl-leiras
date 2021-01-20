@@ -6,7 +6,7 @@ web-dl módszerek magyarul
 - [YOUTUBE-DL ANDROIDON]
 - [YOUTUBE-DL LINUXON]
 - [STREAM LINK BESZERZÉSE BÖNGÉSZŐBŐL](#Stream-link-beszerzese)
-- [YOUTUBE-DL LETÖLTÉSI PARAMÉTEREK]
+- [YOUTUBE-DL LETÖLTÉSI PARAMÉTEREK](#youtube-dl-letöltési-paraméterek)
 - [UTÓMUNKÁLATOK, VÁGÁSOK FFMPEG-EL]
 - [HA SEHOGYSE MEGY A YOUTUBE-DL LEHET CHROME KIEGÉSZÍTŐN KERESZTÜL IS](#stream-recorder-használatával)
 
@@ -19,7 +19,15 @@ Két programra lesz szükségünk, az egyik a youtube-dl ami letölti a videót 
     https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z
     https://youtube-dl.org/downloads/latest/youtube-dl.exe
     
-
+1. **youtube-dl és ffmpeg**
+    - Készítsünk egy mappát ahonnan a youtube-dl-t fogjuk futtatni, másoljuk ebbe a mappába bele a youtube-dl.exe filet
+    - Az ffmpeg-release-full.7z filet csomagoljuk ki, majd a bin mappájából a három darab .exe filet másoljuk át az imént kreált mappába (ffmpeg, ffplay, ffprobe)
+    - Nyomjuk le a jobb shiftet és a kattinsunk jobb gombbal a mappában a shiftet lenyomva tartva, amint megnyílt a menü elereszthetjük a Shiftet
+    - Válasszuk ki a Powershell-ablak megnyitása itt opciót
+    - Kész is a használatra! Következő állomás a [YOUTUBE-DL LETÖLTÉSI PARAMÉTEREK](#youtube-dl-letöltési-paraméterek)
+    
+2. **Updatelés**
+    - Töltsük le megint a két file-t és csomagoljuk/másoljuk át a 4db .exe filet ebbe a mappába
 
 # youtube-dl Windowson Powershell vagy Parancssor használatával PATH-el
 
@@ -51,7 +59,12 @@ Két programra lesz szükségünk, az egyik a youtube-dl ami letölti a videót 
           C:\ffmpeg\bin
     - Majd az OK gombra kattintva zárjuk be a 3 ablakot.
     
-4. **Updatelés**
+4. **Powershell megnyítása**
+    - Keressünk rá a Start menüben, vagy egy tetszőleges mappában nyomjuk le a jobb shiftet és a kattinsunk jobb gombbal a mappában a shiftet lenyomva tartva, amint megnyílt a menü elereszthetjük a Shiftet
+    - Válasszuk ki a Powershell-ablak megnyitása itt opciót
+    - Kész is a használatra! Következő állomás a [YOUTUBE-DL LETÖLTÉSI PARAMÉTEREK](#youtube-dl-letöltési-paraméterek)
+    
+5. **Updatelés**
     - A két programot úgy tudod frissíteni, hogy letöltöd még egyszer és kicsomagolod/átmásolod az új fileokat a már meglévő mappákba.
     - A youtube-dl frissíthető a következő paranccsal is:
     
