@@ -46,17 +46,24 @@ Két programra lesz szükségünk, az egyik a youtube-dl ami letölti a videót 
     
           youtube-dl -U
            
-# #Stream link beszerzese
+# Stream link beszerzese
 
 Chrome vagy Firefox böngészőben nyissuk meg a videót tartalmazó oldalt, nyomjuk meg az F12-öt ez meg fogja nyitni a Developer Tools-t. Itt át kell váltanunk a Network fülre majd újra betöltenünk az oldalt, majd ezeket végigpróbálni:
 
 1. **.m3u8 link**
     - A Developer Tools bal oldalán lesz egy kis szövegdoboz, ezzel tudunk keresni a találatok között, ide írjuk be hogy m3u8
-    - Ha több mint egy találatunk van amik nem egyeznek névre, válasszuk a 2-es lépést inkább, ha csak egy találat van kattintsunk rá
+    - Ha több mint egy találatunk van amik nem egyeznek névre, menjünk a 2-es lépést, ha csak egy találat van kattintsunk rá
     - Majd a felugró ablakból jobb oldalt a Headers fülön lévő Request URL tartalmát másoljuk ki
     
 2. **.mpd**
-    - fwd
+    - Ha nincs egy találat se az m3u8-ra vagy több akkor írjuk be a keresőbe azt hogy: mpd
+    - Ha nincs találat menjünk a 3-as lépésre, ha van akkor kattintsunk rá
+    - A felugró ablakból a response fülön több m3u8 linjék megtaláljuk, keressük meg a legjobb minőségűt
+    
+3. **master.json**
+    - A Vimeo rendszerét használó streameknél egy harmadik verzió játszik, keressünk rá arra hogy master
+    - Az egy találatra kattintsunk rá majd a felugró ablakból a Headers tab-ról a Request URL részt másoljuk ki
+    - A link végéről töröljük le a json?base64_init=1 végződést és írjunk m3u8-at a helyére úgy hogy a link vége így nézzen ki: master.m3u8
 
 # Stream Recorder használatával
 
